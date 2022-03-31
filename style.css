@@ -1,0 +1,70 @@
+@import url('https://fonts.googleaps.com/css2?family=League+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body{
+    background-color: rgb(0, 35, 75);
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    line-height: 20px;
+}
+
+.name{
+    color: rgb(255, 255, 255);
+    font-family: 'League Gothic', sans-serif;
+}
+
+.subtitulo-micv{
+    color: rgb(87, 0, 19);
+}
+.subtitulo-yellow{
+    color: yellow;
+}
+
+ul .activo{
+    color: brown;
+    font-size: 20px;
+}
+
+ul{
+    list-style-type: circle;
+    /* list-style-position: inside; */
+    padding-left: 0;
+}
+
+.otro-ul{
+    color: grey;
+    font-size: 20px;
+}
+
+.hobbies{
+    color: blanchedalmond;
+    font-size: 15px;
+}
+p{
+    color: blanchedalmond;
+    font-size: 15px;
+}
+
+h2{
+    color: yellow;
+}
+
+#image-profile{
+    width: 200px;
+}
+
+img{
+    border: 5px solid rgb(87, 0, 19);
+    box-shadow: 5px 5px 5px;
+    border-radius: 50%;
+}
+
+/*PSEUDOCLASES*/
+#soy-yo:hover{
+    transform: scale(2);
+}
+
+img:hover{
+    transition: 1s;
+}
+
